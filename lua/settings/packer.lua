@@ -12,6 +12,12 @@ return require('packer').startup(function(use)
     use('nvim-treesitter/playground')
     use('ThePrimeagen/harpoon')
     use('mbbill/undotree')
+    
+    use {
+        "klen/nvim-test",
+        config = function()
+        end
+    }
 
     use({
         'nvim-telescope/telescope.nvim', tag = '0.1.1',

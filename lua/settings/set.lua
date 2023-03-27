@@ -33,4 +33,4 @@ vim.o.incsearch = true
 vim.o.scrolloff = 8
 vim.o.signcolumn = "yes"
 --vim.o.isfname:append("@-@")
-vim.o.colorcolumn = "80"
+vim.o.colorcolumn = "120"
