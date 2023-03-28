@@ -104,6 +104,6 @@ return require('packer').startup(function(use)
     -- Scala plugin, not sure I want this yet  --
     use({'scalameta/nvim-metals', requires = { "nvim-lua/plenary.nvim" }})
 
-    -- Rust specific --
+    -- Debugging --
     use('mfussenegger/nvim-dap')
 end)
