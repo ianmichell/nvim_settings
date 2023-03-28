@@ -93,7 +93,7 @@ return require('packer').startup(function(use)
 
     use {
         'nvim-neo-tree/neo-tree.nvim',
-        version = '*',
+        version = 'v2.x',
         requires = {
             'nvim-lua/plenary.nvim',
             'nvim-tree/nvim-web-devicons',
@@ -104,5 +104,6 @@ return require('packer').startup(function(use)
     -- Scala plugin, not sure I want this yet  --
     use({'scalameta/nvim-metals', requires = { "nvim-lua/plenary.nvim" }})
 
-
+    -- Rust specific --
+    use('mfussenegger/nvim-dap')
 end)
